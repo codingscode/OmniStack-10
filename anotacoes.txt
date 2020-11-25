@@ -5,6 +5,8 @@ Back-end:
            npm init -y
            code .  (talvez necessario)
 
+           npm install express
+
 
 
 
