@@ -1,0 +1,16 @@
+
+
+Back-end:
+     no terminal de backend:  
+           npm init -y
+           code .  (talvez necessario)
+
+
+
+
+
+
+
+
+
+
