@@ -1,7 +1,7 @@
 
 
 video1:
-          15min
+          26min
 
 
 

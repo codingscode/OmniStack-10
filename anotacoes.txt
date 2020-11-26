@@ -9,6 +9,7 @@ Back-end:
            node index.js
            npm add nodemon -D
            nodemon index.js
+           npm run dev
 
 
 
@@ -17,6 +18,7 @@ ver http://localhost:3333/
 idem, agora mensagem em formato json
 node index.js sozinho nao atualiza mudanças
 
+script personalizado
 
 
 
