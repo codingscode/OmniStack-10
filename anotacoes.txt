@@ -6,10 +6,11 @@ Back-end:
            code .  (talvez necessario)
 
            npm install express
+           node index.js
 
 
 
-
+ver http://localhost:3333/
 
 
 
