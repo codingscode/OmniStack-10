@@ -24,7 +24,9 @@ insomnia.rest ou postman
 
 http://localhost:3333/usuarios
 
-fazer requisição get no postman
+fazer requisição get no postman: imprime {}
+
+em params -> key digitar busca, value digitar teste. -> imprimir {busca: 'teste'}
 
 
 
