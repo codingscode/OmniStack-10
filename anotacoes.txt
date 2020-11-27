@@ -28,6 +28,7 @@ fazer requisição get no postman: imprime {}
 
 em params -> key digitar busca, value digitar teste. -> imprimir {busca: 'teste'}
 
-
+usar o metodo delete em postman. usar link http://localhost:3333/usuarios/1 
+      imprime { id: '1' }
 
 

@@ -8,14 +8,14 @@ const app = express()
 /* Tipos de parametros:
 
 Query Params:  req.query (Filtros, ordenação, paginação, ...)
-Route Params:
+Route Params:  request.params (identificar um recurso na alteração ou remoção)
 Body:
  */
 
-app.get('/usuarios', (requisicao, resposta) => {
+app.delete('/usuarios/:id', (requisicao, resposta) => {
     console.log(requisicao)
     console.log('---------------')
-    console.log(requisicao.query)
+    console.log(requisicao.params)
     return resposta.json({menssagem: 'Olá OminiStack'})
 })
 
