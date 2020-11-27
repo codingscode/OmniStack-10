@@ -20,7 +20,11 @@ node index.js sozinho nao atualiza mudanças
 
 script personalizado
 
-insomnia.rest
+insomnia.rest ou postman
+
+http://localhost:3333/usuarios
+
+fazer requisição get no postman
 
 
 

@@ -7,12 +7,15 @@ const app = express()
 
 /* Tipos de parametros:
 
-Query Params:
+Query Params:  req.query (Filtros, ordenação, paginação, ...)
 Route Params:
 Body:
  */
 
-app.get('/', (requisicao, resposta) => {
+app.get('/usuarios', (requisicao, resposta) => {
+    console.log(requisicao)
+    console.log('---------------')
+    console.log(requisicao.query)
     return resposta.json({menssagem: 'Olá OminiStack'})
 })
 
