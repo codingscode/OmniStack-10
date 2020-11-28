@@ -1,6 +1,7 @@
 
 const express = require('express')
 const mongoose = require('mongoose')
+const rotas = require('./routes.js')
 
 const app = express()
 mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-kdxee.mongodb.net/week10?retryWrites=true&w=majority', {
@@ -14,6 +15,7 @@ mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-kdxee.mongodb.net/w
 
 
 app.use(express.json()) // válido para todos
+app.use(rotas)
 
 // métodos http: get, post, put, delete
 
@@ -27,15 +29,7 @@ Body: request.body (Dados para criação ou alteração de um registro)
 
  */
 
-app.post('/usuarios', (requisicao, resposta) => {
-    console.log(requisicao)
-    console.log('---------------')
-    console.log(requisicao.params)
-    console.log('---------------')
-    console.log(requisicao.body)
-    
-    return resposta.json({menssagem: 'Olá OminiStack'})
-})
+
 
 app.listen(3333)
 
