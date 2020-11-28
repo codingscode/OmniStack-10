@@ -22,6 +22,8 @@ script personalizado
 
 insomnia.rest ou postman
 
+npm run dev // manter executando. o restante abrir em outro terminal
+
 http://localhost:3333/usuarios
 
 fazer requisição get no postman: imprime {}
@@ -30,5 +32,64 @@ em params -> key digitar busca, value digitar teste. -> imprimir {busca: 'teste'
 
 usar o metodo delete em postman. usar link http://localhost:3333/usuarios/1 
       imprime { id: '1' }
+
+
+em postman usar metodo post, usar body e digitar : 
+          {
+            "nome": "aladin",
+            "email": "aladinda13@gmail.com"
+          }
+          usar http://localhost:3333/usuarios
+          executando aparece aqui o print : undefined
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

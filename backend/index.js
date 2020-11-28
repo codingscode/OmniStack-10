@@ -9,13 +9,16 @@ const app = express()
 
 Query Params:  req.query (Filtros, ordenação, paginação, ...)
 Route Params:  request.params (identificar um recurso na alteração ou remoção)
-Body:
+Body: request.body (Dados para criação ou alteração de um registro)
  */
 
-app.delete('/usuarios/:id', (requisicao, resposta) => {
+app.post('/usuarios', (requisicao, resposta) => {
     console.log(requisicao)
     console.log('---------------')
     console.log(requisicao.params)
+    console.log('---------------')
+    console.log(requisicao.body)
+    
     return resposta.json({menssagem: 'Olá OminiStack'})
 })
 
