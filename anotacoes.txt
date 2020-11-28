@@ -46,6 +46,16 @@ em postman usar metodo post, usar body e digitar :
 
 
 
+https://www.mongodb.com/cloud/atlas
+
+mongodb, terminal cmd digitar 'mongod', usar programa robo 3t
+
+no 2º terminal : npm add mongoose
+
+http://localhost:27017/
+
+portquiz.net:27017
+
 
 
 
