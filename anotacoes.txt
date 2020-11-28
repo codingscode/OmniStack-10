@@ -42,6 +42,8 @@ em postman usar metodo post, usar body e digitar :
           usar http://localhost:3333/usuarios
           executando aparece aqui o print : undefined
 
+          agora aparece no print: { nome: 'aladin', email: 'aladinda13@gmail.com' }
+
 
 
 

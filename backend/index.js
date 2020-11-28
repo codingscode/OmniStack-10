@@ -2,6 +2,7 @@
 const express = require('express')
 
 const app = express()
+app.use(express.json()) // válido para todos
 
 // métodos http: get, post, put, delete
 
