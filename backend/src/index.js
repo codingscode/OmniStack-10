@@ -14,7 +14,7 @@ mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-kdxee.mongodb.net/w
 // mongodb+srv://omnistack:omnistack@cluster0-kdxee.mongodb.net/week10?retryWrites=true&w=majority
 
 
-app.use(express.json()) // válido para todos
+app.use(express.json()) // válido para todos, deve vir antes do da linha de baixo
 app.use(rotas)
 
 // métodos http: get, post, put, delete

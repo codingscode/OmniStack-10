@@ -58,7 +58,11 @@ portquiz.net:27017
 
 testar postman
 
-
+usar http://localhost:3333/devs em postman
+      em body -> raw:
+            {
+               "github_nomeusuario": "codingscode"
+            }
 
 
 
