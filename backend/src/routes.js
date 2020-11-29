@@ -8,11 +8,9 @@ rotas.post('/devs', async (requisicao, resposta) => {
     const { github_nomeusuario } = requisicao.body
 
     const api_res = await axios.get(`https://api.github.com/users/${github_nomeusuario}`)
-    let { name, avatar_url, bio } = api_res.data
-
-    if (!name) {
-        name = api_res.data.login
-    }
+    const { name = login, avatar_url, bio } = api_res.data
+    
+    console.log(name, avatar_url, bio, github_nomeusuario)
 
     return resposta.json({menssagem: 'Olá OminiStack'})
 })

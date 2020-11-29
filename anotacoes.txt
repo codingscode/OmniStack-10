@@ -101,7 +101,11 @@ requisitar nos postman. Aqui aparece :
             updated_at: '2020-11-29T15:10:04Z'
       }
 
-
+requisitar nos postman. Aqui aparece :
+            Heronnes Pereira
+            https://avatars3.githubusercontent.com/u/50297646?v=4
+            Javascript, ReactJS, VueJS, Python 
+            codingscode
 
 
 
