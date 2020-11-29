@@ -64,7 +64,7 @@ usar http://localhost:3333/devs em postman
                "github_nomeusuario": "codingscode"
             }
 
-
+no 2º terminal : npm add axios
 
 
 
